@@ -3,6 +3,7 @@ html,body {
     background-color: #F3EED9;
     font-family: Helvetica;
     width: 100%;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -21,27 +22,29 @@ h1 {
 }
 img {
     height: auto;
-    border-radius: 7px;
+    border-radius: 10px;
 }
 button {
-    background-color:  #db1f2d;
+    background-color:  #fc3845;
     border-radius: 15px;
-    font-size: 20px;
+    font-size: 30px;
+    font-weight: bold;
     color:#282661;
     border: 0;
-    margin: 2em;
-    width: 23em;
-    height: 6em;
+    margin: 1em 0 0 0;
+    width: 350px;
+    height: 100px;
 }
 button:hover {
-    background-color: #c21722;
+    background-color: #e0333f;
 }
 button:active {
-    background-color: #c21722;
-    box-shadow: 0 5px #666;
+    background-color: #d12f39;
+    box-shadow: 0 5px #28266131;
     transform: translateY(4px);
 }
 p {
     color:#282661;
     font-size: 2em;
+    text-align: center;
 }
