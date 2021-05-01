@@ -1,4 +1,4 @@
-var firstPart, middlePart, endPart, firstPartPlural, middlePartPlural;
+var firstPart, middlePart, endPart, firstPartPlural, middlePartPlural, plural = 2;
 $.ajax({
     type: 'GET',
     async: false,
@@ -29,4 +29,4 @@ $.ajax({
     url: "txtfiles/ENDOFSENTENCE.txt",
     success: function(data) { endPart = data.split(/\r?\n/);}
   });
- var numberOfParts = [firstPart.length, middlePart.length, endPart.length, firstPartPlural.length, middlePartPlural.length];
+ var numberOfParts = [firstPart.length, middlePart.length, endPart.length, firstPartPlural.length, middlePartPlural.length, plural];
