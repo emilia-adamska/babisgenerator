@@ -12,15 +12,19 @@ Média
 Reportéři
 Dotace
 Biopaliva
+Politici
 Učitelé
+Příjmy
 Doktoři
+Čechy
 Farmáři
 Agenti
 Auditoři
+Procenta
 Moje firmy
 SPOLU
-Listnáče
 Vize
+Firmy
 Poslanci
 Zloději
 Reportéři ČT
@@ -29,3 +33,4 @@ Podvodníci
 Voliči
 Obchodníci
 Podnikatelé
+Ministři

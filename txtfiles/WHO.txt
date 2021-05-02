@@ -14,8 +14,8 @@ Agrofert
 Zvýšení platů
 ČT
 Česká televize
+Příjem
 Blesk
-Příjmy
 Demokracie
 Privatizace
 Kalousek
@@ -33,14 +33,12 @@ Adamová
 Havlíček
 Organizace
 Příroda
-Čechy
 Program
 Plán
 Listnáč
 Kůrovec
 Rok
 Lež
-Politici
 Politik
 Slib
 Realita
@@ -52,9 +50,7 @@ Státní bezpečnost
 Čeština
 Slovenčina
 Moc
-Procenta
 Demise
-Firmy
 Holding
 Klaus
 Evropská unie
@@ -76,3 +72,4 @@ Kampaň
 Antibabiš
 Lex Babiš
 Podnikatel
+Alena Schillerová
