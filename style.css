@@ -1,50 +1,118 @@
-html,body {
+* {
     margin: 0;
+    padding: 0;
+}
+html,body {
+    font-family: 'Nunito', sans-serif;
     background-color: #F3EED9;
-    font-family: Helvetica;
     width: 100%;
-    height: auto;
+    height: 100%;  
+}
+body {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
-section,header{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+header, .container {
     width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container {
+    flex: 1 0 auto;
+}
+section {
+    display: flex;
+    align-items: center;
+}
+footer {
+    max-width: 320px;
+    display: flex;
+    align-self: flex-end;
+    align-items: center;
+    flex-shrink: 0;
+    margin-right: 5px;
 }
 h1 {
+    text-transform: uppercase;
     text-align: center;
-    
     color: #282661;
+    font-size: 2.8em;
+    margin: 5px 0 5px 0;
 }
+
 img {
     height: auto;
     border-radius: 10px;
 }
 button {
-    background-color:  #fc3845;
+    font-family: 'Bebas Neue', cursive;
+    background-color:  #ee2734;
     border-radius: 15px;
-    font-size: 30px;
+    font-size: 4em;
     font-weight: bold;
-    color:#282661;
+    color:#F3EED9;
     border: 0;
-    margin: 1em 0 0 0;
+    margin: 15px 0 15px 0;
     width: 350px;
     height: 100px;
 }
 button:hover {
-    background-color: #e0333f;
+    background-color: #cc2c37;
 }
 button:active {
     background-color: #d12f39;
     box-shadow: 0 5px #28266131;
     transform: translateY(4px);
 }
+h2 {
+    color:#282661;
+    font-size: 1.7em;
+    text-align: center;
+    margin: 0 0 15px 0;
+}
 p {
     color:#282661;
     font-size: 2em;
     text-align: center;
 }
+.sentence {
+    flex: 1 0 auto;
+    justify-content: center;
+}
+#sentence {
+    max-width:1000px;
+}
+#buymeacoffee {
+    height: auto;
+    width: 150px;
+}
+footer > p {
+    font-size: 16px;
+    margin: 0 10px 0 0;
+    text-align:right;
+}
+@media only screen and (max-width: 600px) {
+    img {
+      width: 100%;
+    }
+    p {
+        color:#282661;
+        font-size: 1.6em;
+        text-align: center;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    button {
+        font-size: 50px;
+    }
+    h2 {
+        font-size: 15px;
+    }
+    button {
+        width: 300px;
+        height: 70px;
+    }
+  }

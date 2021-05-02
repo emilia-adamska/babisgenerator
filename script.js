@@ -3,7 +3,6 @@
     for( var i = 0; i < numberOfParts.length; i++){
         randomNumbers[i] = Math.floor(Math.random() * numberOfParts[i])
     }
-    console.log(randomNumbers);
 }
   function generateSentence(){ 
     getRandomNumbers();
